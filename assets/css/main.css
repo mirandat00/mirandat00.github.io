@@ -919,7 +919,7 @@ ul.icons {
 
 .table-wrapper {
 	-webkit-overflow-scrolling: touch; Non-standard! 
-    	overflow-y: visible;
+    	overflow-y: auto;
 	overflow-x: auto;
 }
 
@@ -934,7 +934,7 @@ table {
 		border-right: 0;
 	}
 
-		table tbody tr:nth-child(2n + 2) {
+		table tbody tr:nth-child(2n + 1) {
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
