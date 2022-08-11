@@ -919,7 +919,7 @@ ul.icons {
 
 .table-wrapper {
 	-webkit-overflow-scrolling: touch; Non-standard! 
-    	overflow-y: scroll;
+    	overflow-y: visible;
 	overflow-x: auto;
 }
 
