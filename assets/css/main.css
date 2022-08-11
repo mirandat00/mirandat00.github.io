@@ -918,7 +918,8 @@ ul.icons {
 /* Table */
 
 .table-wrapper {
-	-webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch; Non-standard! 
+    	overflow-y: auto;
 	overflow-x: auto;
 }
 
